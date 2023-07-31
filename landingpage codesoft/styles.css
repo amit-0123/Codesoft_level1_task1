@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing:border-box ; */
+}
+body{
+    background-color: rgb(41, 190, 141);
+    margin: 0;
+    padding: 0;
+}
+.container{
+    position: absolute;
+    background-color: rgb(249, 249, 251);
+    width: 70%;
+    height: 90%;
+    border-radius: 20px;
+    top: 5%;
+    left: 15%;
+
+}
+nav{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 1rem;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.logo{
+    background-color: transparent;
+    cursor: pointer;
+ 
+}
+section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content{
+     margin-top: 8%;
+     margin-left: 5%;
+}
+.content h1{
+    font-style: italic;
+    font-weight: 200px;
+    font-size: 50px;
+}
+p{
+    line-height: 1.2rem;
+    margin-top: 2%;
+    color: rgb(55, 13, 220);
+}
+.car{
+    margin-top: 10%;
+    opacity: 1;
+}
+footer{
+    display: flex;
+    margin-left: 5%;
+}
+footer button{
+    
+    border: none;
+    padding: 0.8rem;
+    background-color: rgb(67, 67, 225);
+    border-radius: 0.9rem;
+    margin: 2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+footer button:hover {
+    background-color: #45494d; 
+  }
